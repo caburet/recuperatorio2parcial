@@ -1,0 +1,20 @@
+[
+    {
+        "dni": "12345678",
+        "nombre": "Juan",
+        "apellido": "García",
+        "animal_favorito": "Michi"
+    },
+    {
+        "dni": "87654321",
+        "nombre": "María",
+        "apellido": "López",
+        "animal_favorito": "Rex"
+    },
+    {
+        "dni": "11223344",
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "animal_favorito": "Luna"
+    }
+]

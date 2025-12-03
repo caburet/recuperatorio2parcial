@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Michi",
+        "edad": 3,
+        "costo_manutension": 50.0,
+        "color_pelaje": "gris",
+        "precio_adopcion": 65.0
+    },
+    {
+        "nombre": "Luna",
+        "edad": 2,
+        "costo_manutension": 45.0,
+        "color_pelaje": "negro",
+        "precio_adopcion": 58.5
+    },
+    {
+        "nombre": "Rex",
+        "edad": 5,
+        "costo_manutension": 80.0,
+        "raza": "Golden Retriever",
+        "precio_adopcion": 120.0
+    },
+    {
+        "nombre": "Max",
+        "edad": 4,
+        "costo_manutension": 70.0,
+        "raza": "Labrador",
+        "precio_adopcion": 105.0
+    }
+]
