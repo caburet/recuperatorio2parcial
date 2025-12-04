@@ -1,8 +1,8 @@
 from flask import Blueprint, jsonify, request
 from modelos.repositorios.repositorios import obtenerRepoAnimales
-from modelos.entidades.bebida import Animal
-from modelos.entidades.bebidaConAlcohol import Gato 
-from modelos.entidades.bebidaSinAlcohol import Perro
+from modelos.entidades.animal import Animal
+from modelos.entidades.gato import Gato 
+from modelos.entidades.perro import Perro
 
 repo_animales = obtenerRepoAnimales()
 

@@ -1,6 +1,6 @@
-from modelos.entidades.bebidaConAlcohol import Gato
-from modelos.entidades.bebidaSinAlcohol import Perro
-from modelos.entidades.bebida import Animal
+from modelos.entidades.gato import Gato
+from modelos.entidades.perro import Perro
+from modelos.entidades.animal import Animal
 import json
 
 class RepositorioAnimales:

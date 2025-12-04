@@ -1,4 +1,4 @@
-from modelos.entidades.bebida import Animal
+from modelos.entidades.animal import Animal
 
 class Gato(Animal):
     @classmethod
