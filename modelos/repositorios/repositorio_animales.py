@@ -72,27 +72,3 @@ class RepositorioAnimales:
                 return True
         return False
 
-        """Agrega una bebida al repositorio. Lanza ValueError si ya existe una bebida con el mismo nombre"""
-        if self.existeBebida(bebida.obtenerNombre()):
-            raise ValueError("Ya existe una bebida con ese nombre")
-        self.__bebidas.append(bebida)
-        self.__guardarBebidas()
-
-    def actualizarBebida(self, nombre:str, bebida: Bebida)->bool:
-        """Actualiza los datos de una bebida en base a su nombre. Retorna True si la bebida fue actualizada, False en caso contrario"""
-        for bebida_a_modificar in self.__bebidas:
-            if bebida_a_modificar.obtenerNombre() == nombre:                
-                bebida_a_modificar = bebida
-                self.__guardarBebidas()
-                return True
-        return False
-    
-    def eliminarBebida(self, nombre:str)->bool:
-        """Elimina una bebida en base a su nombre. Retorna True si la bebida fue eliminada, False en caso contrario"""
-        for bebida in self.__bebidas:
-            if bebida.obtenerNombre() == nombre:
-                self.__bebidas.remove(bebida)
-                self.__guardarBebidas()
-                return True
-        return False
-    
